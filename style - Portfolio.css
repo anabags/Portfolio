@@ -147,6 +147,9 @@ placeholder {
     box-shadow: 0 10px 50px rgba(188,197,216,1)
 }
 footer ul {
+    list-style: none;
+    text-align: center;
+/*
     max-width: 640px;
     margin: 2em auto;
     padding: 0;
@@ -154,10 +157,14 @@ footer ul {
     display: flex;
     flex-direction: row;  
     justify-content: space-around;
+*/
 }
 footer ul li {
+/*
     list-style: none;
     align-self: flex-end;
+*/
+    display: inline;
 }
 
 footer ul li a {
